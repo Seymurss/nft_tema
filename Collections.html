@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Navbar Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/src/image/logo.png" alt=""></a>
+      <form action="" class="custom-search-input">
+        <i class="bi bi-search search-icon"></i>
+        <input type="search" placeholder="Search">
+      </form>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link actv" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="Collections.html">Collections</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resources</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Create
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse icons" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-wallet-fill"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-moon-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg fixed-top  respnav">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="/src/image/logo.png" alt=""></a>
+    <div class="navbar-collapse icons" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-wallet-fill"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-list"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="trending collectpage">
+        <div class="trtophead">
+          <h4>Explore Collections</h4>
+        </div>
+        <ul>
+          <li class="active">All</li>
+          <li> <i class="bi bi-palette"></i> Art</li>
+          <li> <i class="bi bi-collection"></i> collectibles</li>
+          <li> <i class="bi bi-person-rolodex"></i> Domain</li>
+          <li> <i class="bi bi-music-note"></i> Music</li>
+          <li> <i class="bi bi-image"></i> Photography</li>
+          <li> <i class="bi bi-globe"></i> Virtual World</li>
+        </ul>
+        <div class="trendcards" style="padding-left: 35px;">
+          <div class="trcards colcart">
+            <img src="/src/image/collection_1_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_1_2.jpg" alt="" class="img2">
+            <img src="/src/image/item_7.jpg" alt="" class="img3">
+            <img src="/src/image/collection_1_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">PankySkal</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_2_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_2_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_2_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_2_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">Metasmorf</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_3_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_3_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_3_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_3_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">VR Space_287</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_4_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_4_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_4_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_4_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">Art Me Outside</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_5_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_5_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_5_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_5_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">Dope Shibas</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_6_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_6_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_6_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_6_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">SlimHoods</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_7_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_7_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_7_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_7_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">The Overseers</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+          <div class="trcards colcart">
+            <img src="/src/image/collection_8_1.jpg" alt="" class="img1">
+            <img src="/src/image/collection_8_2.jpg" alt="" class="img2">
+            <img src="/src/image/collection_8_3.jpg" alt="" class="img3">
+            <img src="/src/image/collection_8_4.jpg" alt="" class="img4">
+
+            <div class="cartinfo" style="margin-top: -41px;">
+              <h4 style="margin-top: 13px;">3Landers</h4>
+            </div>
+            <a href="" class="pra"><img src="/src/image/creator_3.png" class="creator1 pro" alt="">by NFT stars</a>
+            <span class="sheart trsheart"> 2.8K Items</span>
+          </div>
+        </div>
+      </div>
+    <footer>
+      <div class="left">
+        <img src="/src/image/logo.png" alt="">
+        <p>Create, sell and collect truly rare digital artworks.<br/> Powered by blockchain technology.</p>
+        <div class="foticons">
+          <i class="bi bi-tiktok"></i>
+          <i class="bi bi-discord"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+        <span>© 2024 Xhibiter — Made by ib-themes</span>
+      </div>
+      <div class="right">
+        <ul>
+          <li class="atcli">Marketplace</li>
+          <li>All NFTs</li>
+          <li>Art</li>
+          <li>Music</li>
+          <li>Virtual World</li>
+          <li>Domain Names</li>
+          <li>Collectibles</li>
+        </ul>
+        <ul>
+          <li class="atcli">Campany</li>
+          <li>Explore</li>
+          <li>About</li>
+          <li>Contact us</li>
+          <li>Our Blog</li>
+          <li>Faq</li>
+        </ul>
+        <ul>
+          <li class="atcli">My account</li>
+          <li>Authors</li>
+          <li>Collection</li>
+          <li>Author Profile</li>
+          <li>Create Item</li>
+        </ul>
+        <span>Terms and conditions & Privacy policy</span>
+      </div>
+    </footer>
+<script src="/src/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

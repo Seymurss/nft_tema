@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Navbar Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/src/image/logo.png" alt=""></a>
+          <form action="" class="custom-search-input">
+            <i class="bi bi-search search-icon"></i>
+            <input type="search" placeholder="Search">
+          </form>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link actv" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="Collections.html">Collections</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Create
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse icons" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-wallet-fill"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-moon-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg fixed-top  respnav">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/src/image/logo.png" alt=""></a>
+        <div class="navbar-collapse icons" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-wallet-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-list"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container mt-5 hero nores">
+            <div class="left">
+                <h2>Buy, sell and<br/> collect NFTs.</h2>
+                <p>The world's largest digital marketplace <br/> for crypto collectibles and non-fungible<br/> tokens</p>
+                <div class="btnbox">
+                    <a href="" class="up">Upload</a>
+                    <a href="" class="ex">Explore</a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="/src/image/hero.jpg" class="fixed" alt="">
+                <img src="/src/image/3D_elements.png" class="sketch" alt="">
+            </div>
+    </div>
+
+    <div class="container mt-5 hero  resphero">
+      <div class="left">
+          <h2>Buy, sell and collect <br/> NFTs.</h2>
+          <p>The world's largest digital marketplace  for crypto collectibles and non-fungible tokens</p>
+          <div class="btnbox">
+              <a href="" class="up">Upload</a>
+              <a href="" class="ex">Explore</a>
+          </div>
+      </div>
+      <div class="right">
+          <img src="/src/image/hero.jpg" class="fixed" alt="">
+          <img src="/src/image/3D_elements.png" class="sketch" alt="">
+      </div>
+    </div>
+    <div class="hot">
+        <img src="/src/image/1f525.png" alt="">
+        <h4>Hot Bids</h4>
+    </div>
+    <div class="row hotcarts">
+      <div class="col-lg-3 ">
+        <img src="/src/image/item_2.jpg" alt="">
+        <div class="cartinfo">
+          <h4>ETH Me Outside</h4>
+          <span> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1920 1920" class="h-4 w-4"><path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path><path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path><path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path><path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path><path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path></svg> 1.55 ETH</span>
+          <p>Current Bid 1.3 ETH</p>
+        </div>
+        <a href="">Place Bid</a>
+        <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+      </div>
+      <div class="col-lg-3 ">
+        <img src="/src/image/item_6.jpg" alt="">
+        <div class="cartinfo">
+          <h4>ETH Me Outside</h4>
+          <span> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1920 1920" class="h-4 w-4"><path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path><path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path><path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path><path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path><path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path></svg> 1.55 ETH</span>
+          <p>Current Bid 1.3 ETH</p>
+        </div>
+        <a href="">Place Bid</a>
+        <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+      </div>
+      <div class="col-lg-3 ">
+        <img src="/src/image/item_4.jpg" alt="">
+        <div class="cartinfo">
+          <h4>ETH Me Outside</h4>
+          <span> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1920 1920" class="h-4 w-4"><path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path><path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path><path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path><path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path><path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path></svg> 1.55 ETH</span>
+          <p>Current Bid 1.3 ETH</p>
+        </div>
+        <a href="">Place Bid</a>
+        <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+      </div>
+      <div class="col-lg-3 ">
+        <img src="/src/image/item_3.gif" alt="">
+        <div class="cartinfo">
+          <h4>ETH Me Outside</h4>
+          <span> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1920 1920" class="h-4 w-4"><path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path><path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path><path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path><path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path><path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path></svg> 1.55 ETH</span>
+          <p>Current Bid 1.3 ETH</p>
+        </div>
+        <a href="">Place Bid</a>
+        <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+      </div>
+    </div>
+    <div class="collections">
+      <p>Top collections over <span>Last 24 Hours</span></p>
+      <div class="giftboxs">
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_1.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_16.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_2.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_3.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_4.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_5.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_6.gif" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_7.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_8.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_9.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_10.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_11.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_12.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_13.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_14.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="giftbox">
+            <div class="gift">
+              <img src="/src/image/avatar_15.jpg" alt="">
+              <span>1</span>
+            </div>
+            <div class="giftinfo">
+              <h4>NFT Funny Cat</h4>
+              <span>7,080.95 ETH</span>
+            </div>
+
+          </div>
+          <div class="btnbox">
+            <a href="" class="giftup">Go to Rankings</a>
+          </div>
+      </div>
+    </div>
+    <div class="trending">
+      <div class="trtophead">
+        <img src="/src/image/26a1.png" alt="">
+        <h4>Trending categories</h4>
+      </div>
+      <ul>
+        <li class="active">All</li>
+        <li> <i class="bi bi-palette"></i> Art</li>
+        <li> <i class="bi bi-collection"></i> collectibles</li>
+        <li> <i class="bi bi-person-rolodex"></i> Domain</li>
+        <li> <i class="bi bi-music-note"></i> Music</li>
+        <li> <i class="bi bi-image"></i> Photography</li>
+        <li> <i class="bi bi-globe"></i> Virtual World</li>
+      </ul>
+      <div class="trendcards">
+        <div class="trcards">
+          <img src="/src/image/item_7.jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_9.jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_10.jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_11.gif" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_5.jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_6.jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_8.jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+        <div class="trcards">
+          <img src="/src/image/item_4 (1).jpg" alt="" class="fxdimg">
+          <span class="sheart"><i class="bi bi-heart"></i> 159</span>
+          <img src="/src/image/creator_3.png" class="creator1" alt="">
+          <img src="/src/image/creator_3.png" class="creator2" alt="">
+          <div class="cartinfo">
+            <h4>Artof Eve</h4>
+            <i class="bi bi-three-dots"></i>
+            <p>0.13 ETH1/1</p>
+          </div>
+          <a href="">Buy Now</a>
+          <span class="sheart trsheart"><i class="bi bi-clock-history"></i> View History</span>
+        </div>
+      </div>
+    </div>
+    <div class="nftabout">
+      <h2>Create and sell your NFTs</h2>
+      <div class="row-xs-12 abrow">
+        <div class="col-lg-3 abcart">
+          <div class="bx-sh">
+              <img src="/src/image/process5.svg" alt="">
+          </div>
+          <h3>1. Set up your wallet</h3>
+          <p>Once you've set up your wallet of choice, connect it to OpenSeaby clicking the NFT Marketplace in the top right corner.</p>
+        </div>
+        <div class="col-lg-3 abcart">
+          <div class="bx-sh" style="background-color: rgb(196 242 227);" >
+            <img src="/src/image/process6.svg" style="background: rgb(16 185 129);" alt="">
+        </div>
+        <h3>2. Create Your Collection</h3>
+        <p>Click Create and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee.</p>
+        </div>
+        <div class="col-lg-3 abcart">
+          <div class="bx-sh" style="background: rgb(205 188 255);">
+            <img src="/src/image/process7.svg" alt="" style="background: rgb(131 88 255) !important;">
+        </div>
+        <h3>3. Add Your NFTs</h3>
+        <p>Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats.</p>
+        </div>
+        <div class="col-lg-3 abcart">
+          <div class="bx-sh" style="background-color: rgb(255 208 208);">
+            <img src="/src/image/process8.svg" style="background: rgb(239 68 68);" alt="">
+        </div>
+        <h3>List Them For Sale</h3>
+        <p>Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs!</p>
+        </div>
+      </div>
+      <div class="abform">
+        <h3>Join our mailing list to stay in the loop with our newest feature releases,<br/> NFT drops, and tips and tricks for navigating Xhibiter</h3>
+        <form action="" class="custom-search-input">
+          <input type="email" placeholder="Email Adress">
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="left">
+        <img src="/src/image/logo.png" alt="">
+        <p>Create, sell and collect truly rare digital artworks.<br/> Powered by blockchain technology.</p>
+        <div class="foticons">
+          <i class="bi bi-tiktok"></i>
+          <i class="bi bi-discord"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+        <span>© 2024 Xhibiter — Made by ib-themes</span>
+      </div>
+      <div class="right">
+        <ul>
+          <li class="atcli">Marketplace</li>
+          <li>All NFTs</li>
+          <li>Art</li>
+          <li>Music</li>
+          <li>Virtual World</li>
+          <li>Domain Names</li>
+          <li>Collectibles</li>
+        </ul>
+        <ul>
+          <li class="atcli">Campany</li>
+          <li>Explore</li>
+          <li>About</li>
+          <li>Contact us</li>
+          <li>Our Blog</li>
+          <li>Faq</li>
+        </ul>
+        <ul>
+          <li class="atcli">My account</li>
+          <li>Authors</li>
+          <li>Collection</li>
+          <li>Author Profile</li>
+          <li>Create Item</li>
+        </ul>
+        <span>Terms and conditions & Privacy policy</span>
+      </div>
+    </footer>
+<script src="/src/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
